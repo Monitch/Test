@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  background-repeat: no-repeat;
+  display:flex; 
+  flex-direction:column; 
+  height:100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 70px;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.menu{
+ list-style: none;
+ color:white;
+ margin-right: 80px;
+}
+
+.menu li{
+    display: inline; 
+    margin-right: 25px; 
+}
+
+.menu a{
+	color:white;
+	text-decoration: none;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mainBox {
+  margin: 150px 0 0 150px;
+  max-width: 500px;
+}
+
+.mainSubTitle {
+  color: white;
+  width:450px;
+  font-size: 28px;
+}
+
+.mainSubSubTitle {
+  color: white;
+  width:450px;
+  font-size: 15px;
+}
+
+
+   
+footer {
+  background-color: white;
+  display: flex;
+  min-height: 70px;
+  margin-top: -80px;
+  clear: both;
+  position: relative;
+  color: black;
+  width: 100%;
+  margin-top:auto;
+  justify-content: auto;
+  align-items: center;
+}
+
+.mT{
+margin-left:75px;
+font-size: 125%;
+margin-bottom:0px:
+}
+.mST{
+margin-left:75px;
+margin-bottom:5px;
+margin-top:0px;
+}
+.nmenu{
+ list-style: none;
+ color:white;
+ margin-left: 150px;
+}
+
+.nmenu li{
+    display: inline; 
+    margin-left: 60px; 
+}
+.mT h3{
+	font-size: 125%;
+	margin: 0px;
+	padding:5px;
+	padding-left: 0px;
+}
+.mST h3{
+	color:gray;
+	width: 350px;
+	font-size: 95%;
+	margin: 0px;
+	padding-bottom:10px;
+	
+	
+}
+
+.log {
+  margin-right: auto;
+}
+
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+  margin:25px;
+  background-color:white;
+  text-align:center;
+}
+.container 
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #FFA500;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
