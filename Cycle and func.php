@@ -2,8 +2,8 @@
 header("Content-Type: text/plain; charset=utf-8");
 //1
 $arr = [
-    "dep1" => [10,20,20],
-    "dep2" => [30,40,30],
+    "dep1" => [10, 20, 20],
+    "dep2" => [30, 40, 30],
 ];
 $sum = 0;
 
@@ -21,7 +21,7 @@ echo "2: ";
     }
     echo PHP_EOL;
 //3
-$array = [1, 2, 3, 4, 5, 6];
+$array = [1, 5, 6, 9, 12];
     function getSum(array $arr,$n){
         $sum = 0;
         for ($i = 0; $i < $n; $i++) {
@@ -33,8 +33,8 @@ $array = [1, 2, 3, 4, 5, 6];
 //4
 
 $arr = [
-    "dep1" => [10,20,20],
-    "dep2" => [30,40,30],
+    "dep1" => [10, 20, 20],
+    "dep2" => [30, 40, 30],
 ];
     function getDepSum(array $array){
         $sum = 0;
