@@ -1,11 +1,8 @@
-<form action="" method="post">
-    <p>Name: <input type="text" name="name" /></p>
-    <p>Age: <input type="text" name="age" /></p>
-    <p><input type="submit" /></p>
-</form>
+
 <?php
 session_start();
 $name = "Vitaliy";
+
 $superName = "Monich";
 $array = [];
 $array = addValue($array, $name, $superName);
@@ -48,10 +45,11 @@ function sendYandex(){
 }
 
 if (!isset($_SESSION['time'])&& !isset($_SESSION['$age'])){
-echo " New session";
+    require_once("htmltest.html");
 $_SESSION['$name'] = $_POST['name'];
 $_SESSION['$age'] = $_POST['age'];
 echo $_SESSION['$name']." ".$_SESSION['$age'];}
-else
-echo $_SESSION['$name']." ".$_SESSION['$age'];
+else{
+    echo "g";
+echo $_SESSION['$name']." ".$_SESSION['$age'];}
 ?>
