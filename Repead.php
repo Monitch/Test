@@ -47,14 +47,11 @@ function sendYandex(){
     echo "It's Yandex";
 }
 
-if (empty($_SESSION['$name'])&& empty($_SESSION['$age'])){
+if (!isset($_SESSION['time'])&& !isset($_SESSION['$age'])){
 echo " New session";
 $_SESSION['$name'] = $_POST['name'];
-$_SESSION['$age'] = $_POST['age'];}
+$_SESSION['$age'] = $_POST['age'];
+echo $_SESSION['$name']." ".$_SESSION['$age'];}
 else
 echo $_SESSION['$name']." ".$_SESSION['$age'];
 ?>
-
-
-
-
