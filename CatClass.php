@@ -6,7 +6,8 @@ class Cat{
     private string $boyOrGirl;
     private int $size;
 
-    public function __construct(
+    public function __construct
+    (
         int $age,
         string $color,
         string $breed,
@@ -18,13 +19,13 @@ class Cat{
         $this->breed=$breed;
         $this->boyOrGirl=$boyOrGirl;
         $this->size=$size;
-
     }
 
     public function isBoy(): bool
     {
         return $this->boyOrGirl == "Man";
     }
+
     public function isGirl(): bool
     {
         return $this->boyOrGirl == "Women";
@@ -61,6 +62,6 @@ class Cat{
     }
 }
 
- $Poenix=new Cat(3,"Grey","Street","Man",6);
+ $Poenix = new Cat(3,"Grey","Street","Man",6);
  var_dump($Poenix->isBoy());
  var_dump($Poenix->isPerfrectCat());
